@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#79B2A7"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:layout_marginBottom="117dp"
+        android:contentDescription="@string/icon_photo"
+        app:layout_constraintBottom_toTopOf="@+id/etName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_photo" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="116dp"
+        android:hint="@string/name_hint"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@drawable/edittext_border"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/etPalindrom"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:hint="@string/palindrom_hint"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="@drawable/edittext_border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etName" />
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/check_text"
+        android:backgroundTint="#2B637B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPalindrom" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#2B637B"
+        android:text="@string/next_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCheck"
+        app:layout_constraintVertical_bias="0.105" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

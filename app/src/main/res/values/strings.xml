@@ -1,0 +1,16 @@
+<resources>
+    <string name="icon_photo">icon_photo</string>
+    <string name="name_hint">Name</string>
+    <string name="palindrom_hint">Palindrom</string>
+    <string name="check_text">Check</string>
+    <string name="next_button">Next</string>
+    <string name="second_screen">Second Screen</string>
+    <string name="welcome">Welcome</string>
+    <string name="user_name">User Name</string>
+    <string name="selected_user_name">Selected User Name</string>
+    <string name="choose_a_user">Choose a User</string>
+    <string name="no_users_available">No users available</string>
+    <string name="avatar">avatar</string>
+    <string name="user_name_">User Name</string>
+    <string name="email">Email</string>
+</resources>
